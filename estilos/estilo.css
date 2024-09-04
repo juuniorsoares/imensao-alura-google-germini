@@ -3,10 +3,18 @@
 
 /* Estiliza o corpo da página */
 body {
-    font-family: "Chakra Petch", sans-serif;
+    font-family: "Chakra Petch" ,sans-serif ;
     /* Define a fonte padrão */
-    background-color: #DDDDDD;
+    background-color: black;
     /* Cor de fundo da página */
+    background-image: url(../img/Netflix-1200x900-1.jpg);
+    /* imagem de fundo do body */
+    background-position: center;
+    /* posicionamento centrado da imagem */
+    background-repeat: no-repeat;
+    /* para a imagem não se repetir */
+    background-size: cover;
+    /* faz com que a imagem preencha toda a tela */
     display: flex;
     /* Usa Flexbox para layout */
     flex-direction: column;
@@ -21,13 +29,27 @@ body {
     /* Remove a margem padrão */
     padding: 0;
     /* Remove o padding padrão */
+    position: relative;
+}
+
+/* faz um overlay na imagem de fundo */
+div.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    z-index: -1;
 }
 
 /* Estiliza os títulos h1 */
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     /* Tamanho da fonte */
-    color: #222831;
+    color: white;
+    /* color: #222831; */
     /* Cor do texto */
     text-align: center;
     /* Alinha o texto ao centro */
@@ -69,20 +91,23 @@ section input {
 
 /* Estiliza os botões dentro das seções */
 section button {
-    padding: 0.8rem 1.2rem;
+    padding: 0.9rem 1.6rem;
     /* Espaçamento interno do botão */
     border: none;
     /* Remove a borda padrão */
     border-radius: 1.5rem;
     /* Borda arredondada */
-    background-color: #30475E;
+    background-color: white;
+    /* background-color: #30475E; */
     /* Cor de fundo do botão */
-    color: #F5F7F8;
+    color: black;
+    /* color: #F5F7F8; */
     /* Cor do texto do botão */
     font-size: 1rem;
     /* Tamanho da fonte */
     cursor: pointer;
     /* Muda o cursor para indicar que é clicável */
+    font-weight: 600;
 }
 
 /* Adiciona efeito hover ao botão de pesquisa */
