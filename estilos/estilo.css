@@ -3,7 +3,7 @@
 
 /* Estiliza o corpo da página */
 body {
-    font-family: "Chakra Petch" ,sans-serif ;
+    font-family: "Chakra Petch", sans-serif;
     /* Define a fonte padrão */
     background-color: black;
     /* Cor de fundo da página */
@@ -33,7 +33,7 @@ body {
 }
 
 /* faz um overlay na imagem de fundo */
-div.overlay{
+div.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -42,6 +42,11 @@ div.overlay{
     background-color: black;
     opacity: 0.8;
     z-index: -1;
+}
+
+section.busca {
+    margin: 0;
+    padding-bottom: 5rem 0 2rem 0;
 }
 
 /* Estiliza os títulos h1 */
@@ -108,6 +113,8 @@ section button {
     cursor: pointer;
     /* Muda o cursor para indicar que é clicável */
     font-weight: 600;
+    /* escolhe a espressura da fonte */
+    margin-bottom: 15px;
 }
 
 /* Adiciona efeito hover ao botão de pesquisa */
@@ -126,7 +133,7 @@ section button:hover {
     /* Altura máxima da caixa de resultados */
     overflow-y: auto;
     /* Adiciona rolagem vertical se necessário */
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     /* Espaçamento acima da caixa de resultados */
     padding: 1rem;
     /* Espaçamento interno */
