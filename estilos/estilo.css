@@ -62,6 +62,9 @@ h1 {
     /* Espaçamento entre letras */
 }
 
+
+
+
 /* Estiliza as seções da página */
 section {
     display: flex;
@@ -143,7 +146,8 @@ section button:hover {
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    background: #FFFFFF;
+    background-color: rgb(45, 44, 44);
+    /* background: #FFFFFF; */
     /* Cor de fundo dos itens */
     border-radius: 0.6rem;
     /* Borda arredondada */
@@ -167,7 +171,8 @@ section button:hover {
 .item-resultado a {
     text-decoration: none;
     /* Remove o sublinhado padrão dos links */
-    color: #30475E;
+    color: #FFFFFF;
+    /* color: #30475E; */
     /* Cor do texto dos links */
 }
 
@@ -179,7 +184,8 @@ section button:hover {
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
-    color: #45474B;
+    color: rgb(232, 223, 223);
+    /* color: #45474B; */
     /* Cor do texto */
     margin: 0.5rem 0;
     /* Margem acima e abaixo */
