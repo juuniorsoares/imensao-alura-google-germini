@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,54 +10,24 @@
 <body>
     <section>
         <div class="overlay"></div>
+        <header>
+            <h1>Quer assistir um filme?</h1>
+        </header>
         <main>
             <section class="busca">
-                <header>
-                    <h1>Quer assistir um filme?</h1>
-                </header>
                     <input type="text" placeholder="Busque por seu filme favorito...">
-                    <button>pesquisar</button>
+                    <button onclick="pesquisar">pesquisar</button>
             </section>
 
-            <section class="resultados-pesquisa">
-                <div class="item-resultado">
-                    <h2>
-                        <a href="https://pt.wikipedia.org/wiki/Surf%27s_Up" target="_blank">Tá Dando Onda</a>
-                    </h2>
-                    <p class="descricao-meta">Tá Dando Onda: Uma Aventura nas Ondas
-                        Tá Dando Onda é uma animação divertida e inspiradora que acompanha a jornada de Cody Maverick,
-                        um
-                        jovem pinguim apaixonado por surfe. Sonhando em se tornar um campeão e conquistar o respeito de
-                        todos, ele decide deixar sua casa gelada na Antártida e embarcar em uma grande aventura para
-                        participar do Big Z Memorial Surf Off, um renomado torneio de surfe.
-                    </p>
-                    <p>
-                        <a href="https://pt.wikipedia.org/wiki/Surf%27s_Up" target="_blank">Mais Informações</a>
-                    </p>
-                </div>
-
-                <div class="item-resultado">
-                    <h2>
-                        <a href="https://pt.wikipedia.org/wiki/Dumb_%26_Dumber" target="_blank">Debi e Loide</a>
-                    </h2>
-                    <p class="descricao-meta">Debi & Lóide: Dois Idiotas em Apuros
-                        Debi & Lóide é uma comédia clássica que acompanha as aventuras de Lloyd Christmas (Jim Carrey) e
-                        Harry Dunne (Jeff Daniels), dois amigos extremamente atrapalhados e com um QI duvidoso.
-
-                        A trama se desenrola quando Lloyd encontra uma mala no aeroporto e decide devolvê-la à sua dona,
-                        a bela Mary Swanson. Essa simples ação desencadeia uma série de confusões e situações hilárias,
-                        enquanto os dois amigos embarcam em uma jornada cruzando os Estados Unidos em busca de Mary.
-                    </p>
-                    <p><a href="https://pt.wikipedia.org/wiki/Dumb_%26_Dumber" target="_blank">Mais Informaçoes</a></p>
-                </div>
+            <section class="resultados-pesquisa" id="resultados-pesquisa">
             </section>
         </main>
     </section>
 
     <footer>
         <p>2024 - filmes - Direitos Reservados.</p>
-        <!-- <p>Entre o contato pelo nosso email: juniorsoares@gmail.com</p> -->
     </footer>
+
     <script src="dados.js"></script>
     <script src="app.js"></script>
 </body>
