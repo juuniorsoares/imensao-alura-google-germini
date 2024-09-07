@@ -1,7 +1,7 @@
 **Cineteca - Imensão Dev com Google Germini**
 
 **O QUE É ESSA APLICAÇÃO?**
-Essa é uma aplicação simples, mas poderosa, que te permite criar sua própria cineteca online!  Imagine ter todos os seus filmes favoritos em um só lugar, com busca rápida e informações detalhadas. É como ter um catálogo de filmes personalizado, direto no seu navegador.
+Essa é uma aplicação simples, mas poderosa, que te permite criar sua própria cineteca online!  Imagine ter todos os seus filmes favoritos em um só lugar, com busca rápida e informações detalhadas. É como ter um catálogo de filmes personalizado, direto no seu navegador..
 
 
 
