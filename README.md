@@ -12,12 +12,10 @@ Personalização Total: A lista de filmes é armazenada em um arquivo JavaScript
 
 **TECNOLOGIAS USADAS:**
 
-HTML: A estrutura básica da página, definindo os elementos como cabeçalho, corpo e rodapé.
+**HTML**: A estrutura básica da página, definindo os elementos como cabeçalho, corpo e rodapé.
 
-
-CSS: Estilizando a página para deixar tudo com uma cara bonita e fácil de usar.
-
-JavaScript: A mágica por trás da aplicação! É o JavaScript que faz a busca, manipula o DOM e exibe os resultados.
+**CSS**: Estilizando a página para deixar tudo com uma cara bonita e fácil de usar.
+**JavaScript**: A mágica por trás da aplicação! É o JavaScript que faz a busca, manipula o DOM e exibe os resultados.
 
 
 **COMO USAR:**
