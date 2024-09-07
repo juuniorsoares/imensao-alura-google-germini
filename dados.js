@@ -33,5 +33,40 @@ let dados = [
         sinopse: "Um hobbit se junta a um grupo de companheiros em uma jornada para destruir um anel poderoso",
         ano: 2001,
         link: "https://pt.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring"
-    }
+    },
+    {
+        titulo: "Coringa",
+        genero: "Drama, Thriller",
+        sinopse: "Um comediante fracassado em Gotham City mergulha na loucura e se torna o arqui-inimigo do Batman.",
+        ano: 2019,
+        link: "https://pt.wikipedia.org/wiki/Joker_(2019_film)"
+    },
+    {
+        titulo: "Pulp Fiction",
+        genero: "Crime, Drama",
+        sinopse: "Várias histórias entrelaçadas de criminosos e personagens excêntricos em Los Angeles.",
+        ano: 1994,
+        link: "https://pt.wikipedia.org.wiki/Pulp_Fiction"
+    },
+    {
+        titulo: "O Iluminado",
+        genero: "Terror, Suspense",
+        sinopse: "Um escritor, sua esposa e seu filho pequeno se mudam para um isolado hotel nas montanhas para passar o inverno. Longe da civilização, o escritor começa a perder a sanidade.",
+        ano: 1980,
+        link: "https://pt.wikipedia.org/wiki/The_Shining"
+    },
+    {
+        titulo: "Blade Runner 2049",
+        genero: "Ficção Científica, Neo-Noir",
+        sinopse: "Uma continuação do clássico de 1982, explorando temas como identidade e o que significa ser humano em um futuro distópico.",
+        ano: 2017,
+        link: "https://pt.wikipedia.org/wiki/Blade_Runner_2049"
+    },
+    {
+        titulo: "Soul",
+        genero: "Animação, Fantasia",
+        sinopse: "Um professor de música recebe a chance de redescobrir sua paixão pela música em uma jornada pela alma.",
+        ano: 2020,
+        link: "https://pt.wikipedia.org/wiki/Soul_(2020_film)"
+    },
 ];

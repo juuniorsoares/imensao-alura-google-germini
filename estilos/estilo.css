@@ -75,6 +75,11 @@ section {
     /* Espaçamento abaixo de cada seção */
 }
 
+section > p{
+    color: #f3f1f1;
+    font-weight: bold;
+}
+
 /* Estiliza os inputs dentro das seções */
 section input {
     width: 30rem;
@@ -216,6 +221,11 @@ footer {
     /* Alinha ao fundo da página */
     font-size: 1rem;
     /* Tamanho da fonte */
+}
+
+footer > p{
+    color: #000000;
+    font-weight: bold;
 }
 
 @media (max-width: 768px) {
