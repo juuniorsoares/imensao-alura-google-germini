@@ -21,11 +21,8 @@ Personalização Total: A lista de filmes é armazenada em um arquivo JavaScript
 **JavaScript**: A mágica por trás da aplicação! É o JavaScript que faz a busca, manipula o DOM e exibe os resultados.
 
 
-
-
-
-
 **COMO USAR:**
+
 Clone o repositório: Faça um clone deste repositório para sua máquina local.
 
 Abra o arquivo index.html: Abra o arquivo index.html em seu navegador.
