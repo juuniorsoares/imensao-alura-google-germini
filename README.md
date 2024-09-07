@@ -23,6 +23,8 @@ Personalização Total: A lista de filmes é armazenada em um arquivo JavaScript
 
 
 
+
+
 **COMO USAR:**
 Clone o repositório: Faça um clone deste repositório para sua máquina local.
 
